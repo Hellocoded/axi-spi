@@ -1,0 +1,26 @@
+Command: vlogan -work xil_defaultlib -full64 +v2k -l /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/com.log \
++define+SIMULATION_EN -f file.f
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Sun Apr 16 14:55:24 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/utils.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_fifo_spi.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_slave.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_if_top.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/clk_gen.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/fifo.v'
+Parsing included file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/utils.v'.
+Back to file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/fifo.v'.
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_master.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_test_transfer.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/adc_control.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_slave.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/counter.v'
+Parsing design file '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_master.v'
+CPU time: 1.079 seconds to compile

@@ -1,0 +1,24 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    -f file.f
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/utils.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_fifo_spi.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_slave.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_if_top.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/clk_gen.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/fifo.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_master.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_test_transfer.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/adc_control.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_slave.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/counter.v
+        /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_master.v
+
+Highest level modules:
+axi_spi_test_transfer
+
+
+*Error* view blk_mem_gen_0 is not defined for instance adc_data_m
+"/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_slave.v", 305: 
+Total	1 error(s),   0 warning(s)

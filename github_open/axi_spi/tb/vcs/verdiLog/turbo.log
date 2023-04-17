@@ -1,0 +1,9 @@
+Command Line: /home/synopsys/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -f file.f -ssf sim_axi.fsdb
+uname(Linux IC_EDA 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64)
+type= DS_SCOPE element= 1 field= 1
+VERILOG axi_spi_test_transfer
+VERILOG uut
+VERILOG SPI_if
+-----
+second field= DebussyLib
+third field= spi_master

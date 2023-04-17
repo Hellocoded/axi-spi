@@ -1,0 +1,72 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/com.log -full64 +v2k +define+SIMULATION_EN -work xil_defaultlib -full64
+
+all :		_VCSgd_nBrjGc_1.db \
+	_VCSgd_pw5WQ_1.db \
+	_VCSgd_Tw0fkc_1.db \
+	_VCSgd_zpXJEb_1.db \
+	_VCSgd_trO6gd_1.db \
+	_VCSgd_RvJwcb_1.db \
+	_VCSgd_T98IHb_1.db \
+	_VCSgd_389hZ_1.db \
+	_VCSgd_99n7k_1.db \
+	_VCSgd_Nx1lqc_1.db \
+	_VCSgd_JFrm1c_1.db \
+	_VCSgd_zMQzfb_1.db \
+	_VCSgd_hyna9d_1.db \
+
+
+
+_VCSgd_nBrjGc_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_fifo_spi.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_fifo_spi.v
+
+
+_VCSgd_pw5WQ_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_slave.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_slave.v
+
+
+_VCSgd_Tw0fkc_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_if_top.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_if_top.v
+
+
+_VCSgd_zpXJEb_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/clk_gen.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/clk_gen.v
+
+
+_VCSgd_trO6gd_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/fifo.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/fifo.v
+
+
+_VCSgd_RvJwcb_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_master.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_master.v
+
+
+_VCSgd_T98IHb_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_test_transfer.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_test_transfer.v
+
+
+_VCSgd_389hZ_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/adc_control.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/adc_control.v
+
+
+_VCSgd_99n7k_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_slave.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/spi_slave.v
+
+
+_VCSgd_Nx1lqc_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/counter.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/counter.v
+
+
+_VCSgd_JFrm1c_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_master.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_master.v
+
+
+_VCSgd_zMQzfb_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/glbl.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/glbl.v
+
+
+_VCSgd_hyna9d_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/ip/blk_mem_gen_0/xil_defaultlib/blk_mem_gen_0.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/ip/blk_mem_gen_0/xil_defaultlib/blk_mem_gen_0.v
+
+

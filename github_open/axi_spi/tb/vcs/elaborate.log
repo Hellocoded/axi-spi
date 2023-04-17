@@ -1,0 +1,75 @@
+Command: vcs -full64 -debug_pp -timescale=1ns/1ps -licqueue -l elaborate.log xil_defaultlib.axi_spi_test_transfer \
+xil_defaultlib.glbl -P /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/novas.tab \
+/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a -o /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/simv \
+
+Doing common elaboration 
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Sun Apr 16 14:55:25 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Top Level Modules:
+       axi_spi_test_transfer
+       glbl
+TimeScale is 1 ps / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_if_top.v, 399
+axi_spi_if, "axi_fifo_spi axi_fifo_spi( .clk_i (clk_i),  .aresetn (reset_n_i),  .wr_valid (wr_valid),  .rd_valid (rd_valid),  .rw_addr (rw_addr),  .slv_reg0 (slv_reg0),  .slv_reg1 (slv_reg1),  .slv_reg2 (slv_reg2),  .slv_reg3 (slv_reg3),  .rx_fifo_empty_i (rx_empty_y),  .rx_fifo_pull_o (rx_pull_y),  .tx_fifo_full_i (tx_full_y),  .tx_fifo_push_o (tx_push_y),  .tx_fifo_data (tx_pushdata_y),  .trans_done_i (trans_done_y),  .trans_start_o (trans_start_y),  .reg_control_o (reg_control_y),  .transfer_control_o (reg_trans_ctrl_y),  .reg_status_o (reg_status_y));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_test_transfer.v, 69
+"axi_spi_if uut( .clk_i (clk_i),  .reset_n_i (reset_n_i),  .awvalid_i (awvalid_i),  .awready_o (awready_o),  .awaddr_i (awaddr_i),  .awprot_i (awprot_i),  .wvalid_i (wvalid_i),  .wready_o (wready_o),  .wdata_i (wdata_i),  .wstrb_i (wstrb_i),  .bvalid_o (bvalid_o),  .bready_i (bready_i),  .bresp_o (bresp_o),  .arvalid_i (arvalid_i),  .arready_o (arready_o),  .araddr_i (araddr_i),  .arprot_i (arprot_i),  .rvalid_o (rvalid_o),  .rready_i (rready_i),  .rdata_o (rdata_o),  .rresp_o (rresp_o),  .spi_ssel_o (spi_ssel_o),  .spi_sck_o (spi_sck_o),  .spi_mosi_o (spi_mosi_o),  .spi_miso_i (spi_miso_i));"
+  The following 32-bit expression is connected to 4-bit port "awaddr_i" of 
+  module "axi_spi_if", instance "uut".
+  Expression: awaddr_i
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_test_transfer.v, 69
+"axi_spi_if uut( .clk_i (clk_i),  .reset_n_i (reset_n_i),  .awvalid_i (awvalid_i),  .awready_o (awready_o),  .awaddr_i (awaddr_i),  .awprot_i (awprot_i),  .wvalid_i (wvalid_i),  .wready_o (wready_o),  .wdata_i (wdata_i),  .wstrb_i (wstrb_i),  .bvalid_o (bvalid_o),  .bready_i (bready_i),  .bresp_o (bresp_o),  .arvalid_i (arvalid_i),  .arready_o (arready_o),  .araddr_i (araddr_i),  .arprot_i (arprot_i),  .rvalid_o (rvalid_o),  .rready_i (rready_i),  .rdata_o (rdata_o),  .rresp_o (rresp_o),  .spi_ssel_o (spi_ssel_o),  .spi_sck_o (spi_sck_o),  .spi_mosi_o (spi_mosi_o),  .spi_miso_i (spi_miso_i));"
+  The following 32-bit expression is connected to 4-bit port "araddr_i" of 
+  module "axi_spi_if", instance "uut".
+  Expression: araddr_i
+  	use +lint=PCWM for more details
+
+
+Warning-[SIOB] Select index out of bounds
+/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/ip/blk_mem_gen_0/blk_mem_gen_v8_4_3/blk_mem_gen_v8_4.v, 2420
+"current_contents[62]"
+  The select index is out of declared bounds : [31:0].
+  In module instance : native_mem_module.blk_mem_gen_v8_4_3_inst 
+  In module : blk_mem_gen_v8_4_3_mem_module.
+
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+recompiling module axi_spi_test_transfer
+recompiling module glbl
+recompiling module fifo
+recompiling module adc_control
+All of 4 modules done
+make[1]: Entering directory '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/csrc'
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/simv ]; then chmod -x /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/simv; \
+fi
+g++  -o /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ \
+-Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic \
+-Wl,-rpath=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib -L/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib \
+objs/amcQw_d.o   _91091_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o \
+rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          -lzerosoft_rt_stubs -lerrorinf \
+-lsnpsmalloc -lvfs /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a \
+-lvcsnew -lsimprofile -lvirsim -luclinative /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/simv up to date
+make[1]: Leaving directory '/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/csrc'
+CPU time: 1.478 seconds to compile + .782 seconds to elab + .135 seconds to link

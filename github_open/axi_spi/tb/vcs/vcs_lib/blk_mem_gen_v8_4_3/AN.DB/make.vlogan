@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -full64 +v2k -work blk_mem_gen_v8_4_3 -full64
+
+all :		_VCSgd_WnrKUb_1.db \
+
+
+
+_VCSgd_WnrKUb_1.db :	/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/ip/blk_mem_gen_0/blk_mem_gen_v8_4_3/blk_mem_gen_v8_4.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/ip/blk_mem_gen_0/blk_mem_gen_v8_4_3/blk_mem_gen_v8_4.v
+
+

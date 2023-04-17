@@ -1,0 +1,32 @@
+{
+    "XIL_DEFAULTLIB.adc_control": [
+        "XIL_DEFAULTLIB0x2eadc_control",
+        "iT2Lu",
+        "module",
+        4
+    ],
+    "axi_spi_test_transfer": [
+        "axi_spi_test_transfer",
+        "SEwgK",
+        "module",
+        1
+    ],
+    "glbl": [
+        "glbl",
+        "WZg7r",
+        "module",
+        2
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        5
+    ],
+    "XIL_DEFAULTLIB.fifo": [
+        "XIL_DEFAULTLIB0x2efifo",
+        "H2Ntc",
+        "module",
+        3
+    ]
+}

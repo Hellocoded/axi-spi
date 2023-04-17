@@ -1,0 +1,20 @@
+Command: /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/simv -l /home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/sim.log +notimingcheck +nospecify
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Apr 16 14:55 2023
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module axi_spi_test_transfer.uut_adc.spi_slave.adc_data_m.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'sim_axi.fsdb'
+*Verdi* : Begin traversing the scope (axi_spi_test_transfer), layer (0).
+*Verdi* : End of traversing.
+********************wave dump start**********************
+$finish called from file "/home/ICer/ic_prjs/axi_spi_if/sim_axi/vcs/srcs/axi_spi_test_transfer.v", line 338.
+$finish at simulation time            491505000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 491505000 ps
+CPU Time:      1.200 seconds;       Data structure size:   1.9Mb
+Sun Apr 16 14:55:29 2023
